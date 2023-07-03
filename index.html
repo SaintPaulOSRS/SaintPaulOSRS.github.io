@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .player-name {
+            color: red;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .high-value {
+            color: red;
+        }
+
+        .normal-value {
+            color: black;
+        }
+    </style>
+    <title>AJAX Dynamic Updates</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <table id="content">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Total Loot</th>
+                <th>Runtime</th>
+                <th>Loot Per Hour</th>
+                <th>Activity</th>
+                <th>Runtime</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
